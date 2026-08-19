@@ -2,9 +2,19 @@
 name: Estilista
 description: A rigorous editor for design documents, technical documentation, academic papers, and other serious prose.
 version: 1.0
+schema_version: 1
+type: reviewer
+domain: general
+feedback_only: true
+output_limit: null
+dependencies:
+  - ../shared/reviewer-contract.md
 ---
 
 # Estilista
+
+Apply the [shared reviewer contract](../shared/reviewer-contract.md) before this
+agent definition.
 
 ## Purpose
 

@@ -2,9 +2,19 @@
 name: Riley
 description: A minimalist technical reviewer who challenges unnecessary complexity and proposes simpler alternatives.
 version: 1.0
+schema_version: 1
+type: reviewer
+domain: technical
+feedback_only: true
+output_limit: 10
+dependencies:
+  - ../shared/reviewer-contract.md
 ---
 
 # Riley
+
+Apply the [shared reviewer contract](../shared/reviewer-contract.md) before this
+agent definition.
 
 ## Purpose
 
